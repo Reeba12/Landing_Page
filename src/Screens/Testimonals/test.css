@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* @import url('./assests/wave.png'); */
+:root{
+    --color1: #001f41;
+    --color2: #379683;
+    --color3: #04E3FF;
+    --color4: #8EE4AF;
+    --color5: #EDF5E1;
+  }
+  .testimonial{
+      padding-top: 2em;
+      background-color: var(--color1);
+  }
+  .testimonial h4{
+    font-size: 7.44vw;
+    line-height: 7.44vw;
+    width: 75.42vw;
+    margin: auto;
+    color: var(--color3);
+    text-align: center;
+  }
+  .testimonialPara{
+      color: #fff;
+      margin: auto;
+      text-align: center;
+    font-weight: 700;
+    font-size: 1.53vw;
+    line-height: 3.47vw;
+  }
+.carousel{
+    margin-bottom: 2em !important;
+}
+.card-form h2 {
+    text-align: center;
+    /* color: var(--bgColor); */
+    color: black;
+  }
+  
+  .tradecardinfo {
+    text-align: justify;
+    text-align-last: center;
+    padding: 2em 20em 2em 20em;
+    background-color: #fff;
+    margin: 1em 0 1em 0;
+    color: gray
+  }
+  
+  
+  .cards {
+    /* margin-bottom: 2em; */
+    margin: auto;
+  }
+  
+  .Top-cards {
+    background-color: #fff;
+    height: 11em;
+    border-bottom: 1px solid rgb(121, 121, 121);
+    display: flex;
+  }
+  
+  .avatarContainer {
+    /* transform: translate(130px,-30px); */
+    /* margin-top: -35px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+  
+  }
+  .css-1wlk0hk-MuiAvatar-root{
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray !important;
+    margin-bottom: 1.5em !important;
+    padding-bottom: 1em !important;
+  }
+  
+  .ant-table-thead>tr>th {
+    background-color: black !important;
+    color: white !important;
+  }
+  
+  .Top-cards div {
+    width: 100%;
+    height: 9em;
+    border-radius: 1em;
+    margin-left: 1em;
+  }
+  
+ 
+  
+  
+  .col-md-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .css-1gcg9uy-MuiPaper-root-MuiCard-root{
+      margin: auto;
+
+  }
+  .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    /* box-shadow: rgba(136, 14, 79, 0.1) 0px 0px 0px 2px !important; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset !important;
+    /* box-shadow: rgba(95, 53, 53, 0.1) 0px 0px 5px 0px, rgba(54, 4, 4, 0.1) 0px 0px 1px 0px !important; */
+    /* box-shadow: rgba(212, 73, 143, 0.4) 0px 0px 0px 2px,rgba(210, 18, 18, 0.65) 0px 4px 6px -1px, rgba(160, 183, 152, 0.08) 0px 1px 0px inset !important; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important; */
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important; */
+  }
+  
+  /* .css-h93ljk-MuiTypography-root {
+    margin-top: 0.8em !important;
+  } */
+  
+  .cards-head {
+    text-align: center !important;
+    font-weight: bolder !important;
+  }
+  
+  .cards-typography {
+    text-align: center !important;
+  
+  }
+  

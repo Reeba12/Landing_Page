@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* @import url('./assests/wave.png'); */
+:root{
+  --color1: #001f41;
+  --color2: #379683;
+  --color3: #04E3FF;
+  --color4: #8EE4AF;
+  --color5: #EDF5E1;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+section{
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: var(--color1);
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('./assests/wave.png');
+  background-size: 1000px 100px;
+  animation: animate 4s ease-in-out infinite;
+  animation-delay: calc(0.25s);
+}
+.wave#wave1{
+  z-index: 1000;
+  opacity: 1;
+  background-position-x: 400px;
+}
+.wave#wave2{
+  z-index: 1000;
+  opacity: 0.5;
+  background-position-x: 300px;
+}
+.wave#wave3{
+  z-index: 999;
+  opacity: 0.2;
+  background-position-x: 250px;
+}
+.wave#wave4{
+  z-index: 998;
+  opacity: 0.7;
+  background-position-x: 600px;
+}
+@keyframes animate {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(10px);
   }
 }
+/* body{
+  background-color: #5CDB95 !important;
+} */
+.Appbar{
+  background-color: var(--color1) !important;
+}
+.appBarBtn{
+  color: #04E3FF !important;
+  font-weight: 900 !important;
+}
+.appicon{
+  color:'#05386B';
+   margin:'0 1em';
+}
+.parallex::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+}
+.lottie{
+  background-color: #5CDB95 !important;
+}
+/* Track */
+.parallex::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Handle */
+.parallex::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.parallex::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.main{
+  position: relative;
+outline-color: #fff;
+z-index: 10;
+display: flex;
+align-items: center;
+max-width: 100vw;
+padding-left: 2.78vw;
+padding-right: 2.78vw;
+/* margin: 0 auto; */
+box-sizing: border-box;
+}
+.text{
+  /* color: #05386B; */
+  /* line-height: 1.6em;
+  margin: 1em 0;
+  padding: 1em; */
+  will-change: transform;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 6.94vw 6.94vw 100px;
+    padding-left: 4.17vw;
+}
+.text p{
+  color: #f1f1f1;
+}
+.text h1{
+  color: #04E3FF;
+  font-family: 'Righteous';
+  font-size: 3.44vw;
+  line-height: 4.44vw;
+  width: 35.42vw;
+}
+.loimage{
+/* margin: 1em 0; */
+display: flex;
+align-self: stretch;
+background: #001f41;
+padding-top: 10.42vw;
+padding-bottom: 10.42vw;
+will-change: transform;
+overflow: hidden;
+display: inline-block;
+vertical-align: middle;
+width: 50%;
+box-sizing: border-box;
+padding: 6.94vw 6.94vw 100px;
+}
+
+
+@media screen and (max-width: 750px){
+ .loimage{
+   display: none;
+ }
+ .text{
+  /* color: #05386B; */
+  /* line-height: 1.6em;
+  margin: 1em 0;
+  padding: 1em; */
+  will-change: transform;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6.94vw 6.94vw 100px;
+    padding-left: 4.17vw;
+    text-align: center;
+    margin-top: 5em;
+  }
+  .text p{
+    color: #f1f1f1;
+    text-align-last: center;
+  }
+  .text h1{
+  /* text-align: center; */
+  color: #04E3FF;
+  font-family: 'Righteous';
+  font-size: 6.44vw;
+  line-height: 7.44vw;
+  width: 80.42vw;
+}
+}
+/* footer */
+.title{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.para{
+  color: #fff;
+  text-align: justify;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para1{
+  color: #fff;
+  text-align: center;
+}
+.icon3{
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%) !important;
+  padding: 10px;
+}
+.input-group{
+  width: 80% !important;
+  padding-left: 70px;
 }

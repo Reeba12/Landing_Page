@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* @import url('./assests/wave.png'); */
+:root{
+  --color1: #001f41;
+  --color2: #379683;
+  --color3: #04E3FF;
+  --color4: #8EE4AF;
+  --color5: #EDF5E1;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-left: 0 !important;
+    margin-right: 0!important;
+}
+.packageHead{
+    text-align: center;
+    color: var(--color1);
+}
+.packagePara{
+    color: gray;
+    text-align: center;
+    font-size: 1.2vw;
+}
+.PriceBox {
+    padding: 20px;
+    background: var(--color1);
+    border-radius: 10px;
+    border: 2px solid var(--color1);
+    margin-bottom: 30px;
+    transition: ease .9s;
+    min-height: 527px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.PriceBox span {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+}
+.PriceBox p {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 800;
+}
+.PriceBox small {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.PriceBox h3 {
+    display: block;
+    text-align: center;
+    color: var(--color3);
+    font-size: 18px;
+}
+.PriceBox h3 del {
+    color: #fff;
+    font-size: 25px;
+}
+.PriceBox ul {
+    padding: 10px 10px;
+    height: 300px;
+    text-align: center;
+    /* overflow-y: scroll; */
+}
+.PriceBox ul li {
+    color: #fff;
+    font-weight: 300;
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    /* text-decoration: none; */
+    /* position: relative; */
+    padding: 0 0 0 20px;
+}
+.getstarted {
+    position: relative;
+}
+.getstarted a {
+    display: table;
+    margin: 40px auto 0 auto;
+}
+
+.mybtn1 {
+    color: #fff;
+    padding: 13px 25px;
+    display: table;
+    border-radius: 30px 0 30px 0;
+    line-height: 30px;
+    box-shadow: none;
+    background: 0 0;
+    border: 2px solid #fff;
+}
+@media only screen and (min-width: 520px) and (max-width: 767px){
+    
+    .PriceBox {
+        padding: 23px 13px;
+        min-height: auto;
+    }
+    .PriceBox span {
+        font-size: 30px;
+    }
+    .PriceBox small {
+        font-size: 30px;
+    }
+    .PriceBox ul li {
+        font-size: 12px;
+    }
+    .mybtn1 {
+        padding: 7px 10px;
+    }
+}

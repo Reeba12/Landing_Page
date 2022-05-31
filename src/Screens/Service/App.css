@@ -1,0 +1,47 @@
+/* SERVICE */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* @import url('./assests/wave.png'); */
+:root{
+  --color1: #05386B;
+  --color2: #379683;
+  --color3: #5CDB95;
+  --color4: #8EE4AF;
+  --color5: #EDF5E1;
+}
+.offered {
+    /* margin-top: 100px; */
+    text-align: center;
+  }
+  .offered h1{
+    color: #05386B;
+    font-family: 'Righteous';
+  }
+  .offered p{
+    color: #379683;
+  }
+  .icon{
+    color: var(--color1);
+    font-weight: 900;
+    font-size: larger;
+  }
+  .card-title {
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+    transition: all .3s ease 0s !important;
+    color: var(--color1) ;
+  }
+  
+  .card {
+    margin: 1em;
+    border: none !important;
+  }
+  .card-body{
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+  }
+  
+  .card-text {
+    text-align: center !important;
+    color: #05386B !important;
+  }
