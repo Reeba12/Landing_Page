@@ -22,7 +22,7 @@ const UpperDiv = () => {
           <div className="text">
          <p>"Design your webite with us."</p>
             <h1>"Web Development Company to Elevate Your Business."</h1>
-          <h3>This is to confirm my affiliation with the website <span>Tallat Kareem</span></h3>
+          <h3>This site is owned and operated by <span>Tallat Kareem</span></h3>
             {/* <ReactTypingEffect
               text={[
                 ,
