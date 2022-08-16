@@ -23,6 +23,10 @@ const UpperDiv = () => {
          <p>"Design your webite with us."</p>
             <h1>"Web Development Company to Elevate Your Business."</h1>
           <h3>This site is owned and operated by <span>Tallat Kareem</span></h3>
+            <p><span>Name</span> : Tallat Kareem</p>
+            <p><span>Address</span> : House no 777 C Model Colony</p>
+            <p><span>Phone no</span> : +923022838789</p>
+            <p><span>email</span> : tallatkareem193@gmail.com</p>
             {/* <ReactTypingEffect
               text={[
                 ,

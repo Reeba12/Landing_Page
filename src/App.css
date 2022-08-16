@@ -97,7 +97,8 @@ section{
 outline-color: #fff;
 z-index: 10;
 display: flex;
-align-items: center;
+padding-top: 2em;
+/* align-items: center; */
 max-width: 100vw;
 padding-left: 2.78vw;
 padding-right: 2.78vw;
@@ -109,17 +110,20 @@ box-sizing: border-box;
   /* line-height: 1.6em;
   margin: 1em 0;
   padding: 1em; */
-  will-change: transform;
+  /* will-change: transform; */
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
     width: 50%;
     box-sizing: border-box;
-    padding: 6.94vw 6.94vw 100px;
+    /* padding: 6.94vw 6.94vw 100px; */
     padding-left: 4.17vw;
 }
 .text p{
   color: #f1f1f1;
+}
+.text p span{
+  color: #04E3FF;
 }
 .text h1{
   color: #04E3FF;
